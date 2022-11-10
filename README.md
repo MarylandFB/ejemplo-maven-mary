@@ -1,5 +1,5 @@
 # Getting Started
-
+DEBERIA EJECUTAR RAMA RELEASE /V1
 ## Windows
 
 ### Compile Code
