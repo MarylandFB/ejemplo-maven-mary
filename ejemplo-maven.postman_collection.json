@@ -18,7 +18,7 @@
 							"});",
 							"",
 							"pm.test(\"Response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(250);",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);",
 							"});"
 						],
 						"type": "text/javascript"
@@ -114,8 +114,8 @@
 							"    pm.response.to.have.status(200);",
 							"});",
 							"",
-							"pm.test(\"Response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(250);",
+							"pm.test(\"Response time is less than 600ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(600);",
 							"});"
 						],
 						"type": "text/javascript"
